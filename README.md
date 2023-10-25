@@ -1,3 +1,9 @@
+# AZURE DEMO
+
+## Tech Stack
+
+-[x] Azure Function
+
 ```c#
 $ func init func-demo --worker-runtime dotnet-isolated
 
@@ -14,3 +20,7 @@ $ curl --get http://localhost:7071/api/HttpTrigger_Demo?name=JeffTest
 $ curl --request POST http://localhost:7071/api/MyHttpTrigger --data '{"name":"Jeff Test"}'
 
 ```
+
+## Debug
+
+![Alt text](azure-func-debug-demo.gif)
